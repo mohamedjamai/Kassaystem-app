@@ -1,0 +1,193 @@
+.containerdash {
+    width: 1200px;
+    height: 600px;
+
+    }
+
+
+.sushimenu {
+    height: 80px;
+    border-radius: 7px;
+
+}
+
+.buttons{
+    padding: 15px;
+
+}
+
+/* CSS */
+.button-33 {
+  background-color:darkgreen;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 27px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(107, 34, 84, 0.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.Sushirollendiv {
+    margin: 10px;
+    padding: 10px;
+    flex:content;
+}
+
+.button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    flex:content;
+  }
+
+  .text--medium {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ecf0f1;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 1300px;
+
+  }
+
+  .card {
+    height: 250px;
+    width: 300px;
+    padding: 5px;
+}
+
+  .card:hover {
+    transform: translateY(-7px);
+  }
+
+  .card__image-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .card__image-container img {
+    width: 350px; /* Breedte van de afbeelding opvullen binnen de container */
+    height: 300px; /* Automatische hoogte instellen om de aspect ratio te behouden */
+  }
+
+  .card__content {
+    height: 100px;
+    padding: 20px;
+    background-color: #303032;
+  }
+
+  .card__title {
+    margin-bottom: 20px;
+  }
+
+  .card__info {
+    display: flex;
+    align-self: end;
+    align-items: center;
+  }
+
+  .card__price {
+    margin-left: auto;
+    padding: 5px 20px;
+    background-color: #303032;
+    border-radius: 20px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .card {
+      flex-basis: calc(33.33% - 20px); /* Op kleinere schermen worden de kaarten verdeeld over drie kolommen met een ruimte van 20px ertussen */
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .card {
+      flex-basis: calc(50% - 20px); /* Op nog kleinere schermen worden de kaarten verdeeld over twee kolommen met een ruimte van 20px ertussen */
+    }
+  }
+
+  .calculator {
+
+
+  }
+
+  #calculator {
+    min-height: 500px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    font-size: 24px;
+  }
+  .flex-container {
+    display: flex;
+}
+
+#white-block-container {
+  pointer-events: none; /* Zorg ervoor dat alleen de achtergrond van de div niet klikbaar is */
+
+}
+  #white-block{
+    border-radius: 15px;
+    border-color: green;
+    width: 500px;
+    background-color: #ecf0f1;
+    border-width: 4px;
+  }
+
+header{
+    background-color: #ecf0f1;
+}
+
+body{
+    background-color: #ecf0f1;
+}
+
+#saveButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff; /* Blauwe achtergrondkleur */
+    color: #fff; /* Witte tekstkleur */
+    border: none; /* Verwijder de rand */
+    border-radius: 5px; /* Maak de hoeken afgerond */
+    transition: background-color 0.3s; /* Voeg een vloeiende overgang toe voor hover-effect */
+}
+
+#saveButton:hover {
+    background-color: #0056b3; /* Donkerblauwe achtergrondkleur bij hover */
+}
+
+.remove-button{
+    color: red;
+}
+.note-button{
+    color: blue;
+}
