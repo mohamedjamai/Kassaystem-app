@@ -17,7 +17,7 @@ use App\Http\Controllers\OrderLineController;
 Route::post('/handleProductClick', [ProductController::class, 'handleProductClick']);
 
 
-/*
+/*.
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
